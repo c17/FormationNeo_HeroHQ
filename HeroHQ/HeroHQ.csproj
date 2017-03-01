@@ -77,6 +77,7 @@
     <Content Include="images\favicon.png" />
     <Content Include="images\header_red_wave_full.png" />
     <Content Include="images\herohqbanner.png" />
+    <Content Include="images\hero_img_placeholder.png" />
     <Content Include="images\home_icon.png" />
     <Content Include="images\Mercy_portrait_flip.png" />
     <Content Include="images\metalbanner.jpg" />

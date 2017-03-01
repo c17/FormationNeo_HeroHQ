@@ -1077,7 +1077,8 @@ body {
     text-align: center;
 }
 .page-title {
-    color: #e1d5b8;
+    /*color: #e1d5b8;*/
+    color: gray;
     font-family: "thirsty_roughregular_one", Georgia, "Times New Roman", Times, serif;
     text-align: center;
     font-size: 3em;
@@ -1835,26 +1836,27 @@ body {
 
 /* *** RECETTES NEW *** */
 
-#content_recettes_new {}
-#content_recettes_new .line {
+#new_hero {}
+#new_hero .line {
     margin-bottom: 0;
 }
-#content_recettes_new .line label {
+#new_hero .line label {
     font-weight: 600;
     display: block;
 }
-#content_recettes_new .ingredients_list {
+#new_hero .ingredients_list {
     background-color: transparent;
     padding: 0;
 }
-#content_recettes_new #recette_desc {
+#new_hero #recette_desc {
     min-height: 200px;
 }
-#content_recettes_new .current_img {
+#new_hero .current_img {
     height: 200px;
     margin-top: 30px;
+    border: 7px dashed #f69c55;
 }
-#content_recettes_new .remove_ingredient {
+#new_hero .remove_ingredient {
     position: absolute;
     top: 0;
     left: 50%;
@@ -1871,10 +1873,10 @@ body {
     visibility: hidden;
     opacity: 0;
 }
-#content_recettes_new .remove_ingredient .glyphicon {
+#new_hero .remove_ingredient .glyphicon {
     margin-right: 0;
 }
-#content_recettes_new .item:hover .remove_ingredient {
+#new_hero .item:hover .remove_ingredient {
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -ms-transition: all 0.3s ease-in-out;
@@ -1884,7 +1886,7 @@ body {
     visibility: visible;
     opacity: 1;
 }
-#content_recettes_new .item:hover img {
+#new_hero .item:hover img {
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -ms-transition: all 0.3s ease-in-out;
@@ -1893,7 +1895,7 @@ body {
 
     opacity: 0.5;
 }
-#content_recettes_new .recette_total_calories {
+#new_hero .recette_total_calories {
     display: inline-block;
     text-align: center;
     /*
@@ -1905,17 +1907,17 @@ body {
     -webkit-border-radius: 8px;
     border-radius: 8px;
 }
-#content_recettes_new .recette_total_calories .tit {
+#new_hero .recette_total_calories .tit {
     text-transform: uppercase;
 }
-#content_recettes_new .recette_total_calories .mass {
+#new_hero .recette_total_calories .mass {
     text-transform: lowercase;
 }
-#content_recettes_new .recette_total_calories .val {
+#new_hero .recette_total_calories .val {
     font-weight: 800;
     color: #ed5137;
 }
-#content_recettes_new .recette_save {
+#new_hero .recette_save {
     line-height: 30px;
 }
 
