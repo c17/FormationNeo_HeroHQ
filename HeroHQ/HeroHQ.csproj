@@ -73,6 +73,7 @@
     <Content Include="fonts\thirstyroughregone-webfont.eot" />
     <Content Include="fonts\thirstyroughregone-webfont.ttf" />
     <Content Include="fonts\thirstyroughregone-webfont.woff" />
+    <Content Include="hero_details.html" />
     <Content Include="images\favicon.png" />
     <Content Include="images\header_red_wave_full.png" />
     <Content Include="images\herohqbanner.png" />
@@ -82,6 +83,7 @@
     <Content Include="images\paper-bg-pattern.jpg" />
     <Content Include="images\hero_label_wave.png" />
     <Content Include="images\recherche_icon.png" />
+    <Content Include="new_hero.html" />
     <Content Include="packages.config" />
     <None Include="Scripts\jquery-3.1.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.1.1.js" />
@@ -129,6 +131,7 @@
     <Content Include="images\Winston_portrait.png" />
     <Content Include="images\Zarya_portrait.png" />
     <Content Include="images\Zenyatta_portrait.png" />
+    <Content Include="search.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
