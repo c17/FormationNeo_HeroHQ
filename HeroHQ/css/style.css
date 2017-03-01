@@ -1926,10 +1926,10 @@ body {
 
 /* *** INGREDIENTS LIST *** */
 
-#content_ingredients {
+#content_search {
 }
-#content_ingredients .panel > .row {
-    background-image: url("../img/shopping-bag.png");
+#content_search .panel > .row {
+    background-image: url("../../images/favicon.png");
     /*
     background-repeat: no-repeat;
     background-position: 10% 50%;
